@@ -15,7 +15,7 @@ library(car)
 #Titanic 
 #Banco de dados com 891 passageiros
 
-Titanic=read.csv("C:\\Users\\alefr\\Desktop\\MESTRADO Alef\\Análise de Dados\\Métodos Quantitativos com Auxilio de Software\\ModuloMetodosQuantitativos\\dados\\Titanic.csv")
+Titanic=read.csv("https://raw.githubusercontent.com/alexdesousapereira/Machine-Learning-Projects/main/Titanic/Dados/Titanic.csv")
 
 #Desses 891 passageiro falta informação de idade para 177 passageiro
 #Vamos retirar do nosso data.frame essas observações

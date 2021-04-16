@@ -14,7 +14,7 @@ library(car)
 #Importando Dados
 #SalarioGenero.xlsx
 
-SalarioGenero=read_excel("C:\\Users\\alefr\\Desktop\\MESTRADO Alef\\Análise de Dados\\Métodos Quantitativos com Auxilio de Software\\ModuloMetodosQuantitativos\\dados\\SalarioGenero.xlsx")
+SalarioGenero=read_excel("C:/Users/alexd/OneDrive/Documentos/GitHub/Machine-Learning-Projects/Salario_por_Genero/Dados/SalarioGenero.xlsx")
 
 #Não executar
 attach(SalarioGenero)#comando para acessar as coluna do dataFrame
