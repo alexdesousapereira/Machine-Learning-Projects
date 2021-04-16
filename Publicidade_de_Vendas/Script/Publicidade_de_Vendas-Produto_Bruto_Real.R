@@ -13,7 +13,7 @@ library(forecast)#Pacote para utilizar função Box.Cox
 #Importação Dados utilizando a opção "Import Dataset" (PublicidadeVendas)
 #Importação Dados PublicidadeVendas
 
-PublicidadeVendas=read_excel("C:\\Users\\alefr\\Desktop\\MESTRADO Alef\\Análise de Dados\\Métodos Quantitativos com Auxilio de Software\\ModuloMetodosQuantitativos\\dados\\PublicidadeVendas.xlsx")
+PublicidadeVendas=read_excel("C:/Users/alexd/OneDrive/Documentos/GitHub/Machine-Learning-Projects/Publicidade_de_Vendas/Dados/PublicidadeVendas.xlsx")
 
 attach(PublicidadeVendas) #comando para poder acessar cada coluna do DataFrame
 
@@ -121,7 +121,7 @@ points(Publicidade,Vendas, type = "p")
 #Importando Dados
 #Taiwan.xlsx
 
-Taiwan=read_excel("C:\\Users\\alefr\\Desktop\\MESTRADO Alef\\Análise de Dados\\Métodos Quantitativos com Auxilio de Software\\ModuloMetodosQuantitativos\\dados\\Taiwan.xlsx")
+Taiwan=read_excel("C:/Users/alexd/OneDrive/Documentos/GitHub/Machine-Learning-Projects/Publicidade_de_Vendas/Dados/Taiwan.xlsx")
 
 #Análisar se a variável produto bruto real(Y) pode ser explicada pelas outras  variáveis
 
@@ -218,10 +218,10 @@ Box.test(Reg2$residuals, type = c("Ljung-Box"))
 
 #como p-value  = 0.152  Aceita sE H0, ou seja os residuos são Independentes
 
-###Verificando multicolinearidade###
-#A multicolinearidade é um problema no ajuste do modelo que pode causar
-#impactos na estimativa dos parâmetros. 
-#Podemos diagnosticar Multicolinearidade por meio do 
+### Verificando multicolinearidade###
+# A multicolinearidade é um problema no ajuste do modelo que pode causar
+# impactos na estimativa dos parâmetros. 
+# Podemos diagnosticar Multicolinearidade por meio do 
 #VIF (Variance Inflation Factor).
 
 vif(Reg2) # o VIF>10  é indicativo de problemas de multicolinearidade
