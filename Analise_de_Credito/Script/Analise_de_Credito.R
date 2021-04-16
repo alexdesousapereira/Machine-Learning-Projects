@@ -10,9 +10,6 @@
 #
 #*****************************************************************************
 
-# Definindo a pasta de trabalho
-setwd("C:/Users/alexd/OneDrive/Meus Cursos/DataScienceAcadmy/Microsolft_Power_BI/Capútulo15")
-getwd()
 
 # Definição do Problema
 # Leio o manual em pdf no Capituloo 15 do curso como a definicão do problema
@@ -38,8 +35,7 @@ library(e1071)
 
 # Carregando o dataset
 # Fonte: https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
-dados_clientes <- read.csv("dados/dataset.csv")
-
+dados_clientes <- read.csv("https://raw.githubusercontent.com/alexdesousapereira/Machine-Learning-Projects/main/Analise_de_Credito/Dados/dataset.csv")
 # Visualizando os dados e sua estrutura
 View(dados_clientes)
 dim(dados_clientes)
