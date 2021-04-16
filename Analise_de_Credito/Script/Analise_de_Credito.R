@@ -16,13 +16,13 @@
 
 # Instalando os pacotes para o projeto 
 # Obs: os pacotes precisam ser instalados apenas uma vez
-install.packages("Amelia") # funções valores ausentes
-install.packages("caret") # contruir modelo mechine learning
-install.packages("ggplot2") # gráficos
-install.packages("dplyr") # tratar dados
-install.packages("reshape") # manipulação
-install.packages("randomForest") # machine learning
-install.packages("e1071") # machine learning
+#install.packages("Amelia") # funções valores ausentes
+#install.packages("caret") # contruir modelo mechine learning
+#install.packages("ggplot2") # gráficos
+#install.packages("dplyr") # tratar dados
+#install.packages("reshape") # manipulação
+#install.packages("randomForest") # machine learning
+#install.packages("e1071") # machine learning
 
 # Carregando os pacotes 
 library(Amelia)
